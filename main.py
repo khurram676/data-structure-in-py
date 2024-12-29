@@ -1,0 +1,15 @@
+mylist=["cars","truck","van","bike"]
+mylistno=[1,2,5,7,8,9,6,3,4]
+print(mylist[1])
+print(mylist[-1])
+print(len(mylist))
+mylist.remove("van")
+print(mylist)
+mylistno.sort()
+print(mylistno)
+mylist.reverse()
+print(mylist)
+mylistno.append(10)
+print(mylistno)
+mylistno=mylistno[0:5]
+print(mylistno)

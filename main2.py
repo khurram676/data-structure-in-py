@@ -1,0 +1,13 @@
+my_dic={"name":"Khurram","class":10,"age":18}
+my_dic['class']=12
+print(my_dic)
+my_dic['age']=15
+print(my_dic)
+my_dic['name']="muneeb"
+print(my_dic)
+my_dic.pop("age")
+print(my_dic)
+my_dic.get("class")
+print(my_dic)
+my_dic.clear()
+print(my_dic)
